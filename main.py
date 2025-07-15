@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import sqlite3
 
-TOKEN = "вставь_сюда_свой_токен_от_BotFather"
+TOKEN = "8103740795:AAG-pPxHzmAZYiSXHOUO1uyjOSohzPMxlOA"
 
 conn = sqlite3.connect("referrals.db")
 cursor = conn.cursor()
